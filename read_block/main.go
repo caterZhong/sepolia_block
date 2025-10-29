@@ -15,7 +15,7 @@ import (
 func main() {
 	// Infura Sepolia 测试网络 URL
 	// 替换 YOUR-INFURA-API-KEY 为你的实际 API Key
-	infuraURL := "https://sepolia.infura.io/v3/2000c997d55742fdb5357ed6c3104ad3"
+	infuraURL := "https://sepolia.infura.io/v3/你的key"
 
 	// 连接到 Sepolia 测试网络
 	client, err := ethclient.Dial(infuraURL)
